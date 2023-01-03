@@ -1,0 +1,36 @@
+{
+  "name": "amali-eats",
+  "version": "1.0.0",
+  "description": "Food Ordering System",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "PMY",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bson": "^4.2.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.0.3",
+    "cors": "^2.8.5",
+    "csurf": "^1.9.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-openid-connect": "^2.2.1",
+    "express-session": "^1.15.6",
+    "googleapis": "^67.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.4.17",
+    "sequelize": "^5.0.0-beta.11"
+  }
+}
